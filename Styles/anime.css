@@ -1,0 +1,105 @@
+@keyframes rollin{
+	0%{ margin-left:-40%; }
+	100%{}
+}
+@keyframes sizein{
+	0%{ transform:scale(1); }
+	50%{ transform: scale(1.2); }
+}
+.navbar-header{
+	animation: 2s rollin 1 ease;
+}
+
+.welcome{
+	padding-top: 200px;
+	font: bold normal 40px Montserrat;
+	color: white;
+	z-index: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+#W,#E,#L,#C,#O,#M,#E2{
+	visibility: hidden;
+	margin-right: 2%;
+}
+
+
+/*about*/
+
+#about{
+	z-index: 1;
+	position: relative;
+}
+
+#head, #gandhihead, #messagehead,#exbhhead, #workshopshead, #nexthead{
+	transition: all 0.5s ease-in-out;
+}
+
+.spacing{
+	transform: scale(1.3);
+}
+
+.polaroid {
+  width: 90%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  opacity: 0;
+  position: relative;
+  transform: translateY(-10%);
+  transition: all 0.5s ease-in-out;
+}
+.polaroid:hover{
+  transform: scale(0.9);
+  opacity: 0.8;
+}
+
+.knowmore{
+  position: relative;
+  animation: 1s sizein infinite linear;
+
+}
+.knowmore:hover{
+	background-color: #222;
+}
+
+.showing{
+	opacity:1;
+	transform: translateX(0px);
+}
+
+
+/* other sections*/
+
+#gandhi,#message,#exbh,#workshops,#next{
+	position: relative;
+}
+
+#gandhi{
+	z-index: 3;
+}
+#about{
+	z-index: 2;
+}
+#message{
+	z-index:4;
+}
+#exbh{
+	z-index:5;
+}
+#workshops{
+	z-index:6;
+}
+#next{
+	z-index:7;
+}
+
+
+
+/*footer*/
+
+footer{
+	z-axis: 2;
+	position: relative;
+}

@@ -1,0 +1,124 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #777;
+  background-color: #403a3a;
+}
+
+h3{
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;      
+  font-size: 26px;
+  color: #111; 
+}
+h4 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 5px;      
+  font-size: 20px;
+  color: #eee;
+}
+ 
+.container {
+  padding: 120px 120px 80px 120px;
+}
+.container2 {
+  padding: 120px 120px 80px 120px;
+}
+
+
+.bg-1 {background: #2d2d30;color: #bdbdbd;}
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+
+.bg-2{background-color: #eee;}
+
+#img1{
+  width:100%;
+}
+
+.nav-tabs li a {
+      color: #777;
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: black/*#29292c */!important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #d3d3d3 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: #222 !important;
+  }
+.dropdown-content{
+  display: none;
+  background-color: #424245;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+#sidebar{
+  padding-top: 170px;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background-color: black;
+  color: white;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #231e1e;
+}
+a {
+    color: #d6d6d6;
+    text-decoration: none;
+}
+a:hover{
+  color:#fff;
+}
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+.thumbnail p {
+  margin-top: 15px;
+  color:; #555;
+}
+footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  padding: 32px;
+}
+footer a {
+  color: #f5f5f5;
+}
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+} 
