@@ -1,0 +1,43 @@
+.carousel-inner img {
+      -webkit-filter: grayscale(70%);
+      filter: grayscale(70%); /* make all photos black and white */ 
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  	  }
+
+  	  #load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("loader.gif") no-repeat center center rgba(232, 235, 239,1);
+}
+
+
+  		body{font-family: 'Alegreya', Serif; background-color: #E8EBEF;}
+  		.cards{background-color: #d6d7d8; border-radius: 5px; padding:5%; width: 80%; border-left : 5px solid #af2828;}
+  		.navbar{background-color: rgba(76, 175, 80, 0); border: none;}
+  		.navbar-toggle{border: none; color: green;}
+  		a:link{color:black; text-decoration: none;}
+  		a:visited{color:black; text-decoration: none;}
+  		.navbar{font-family: 'Pontano Sans', Sans-Serif;}
+  		.navbar-nav>li>a:visited{color:black;}
+  		.navbar-nav>.active>a{border-bottom: 5px solid #af2828	;}
+  		.navbar-nav>li>a:link{color:black; font-weight: bold; padding-top: 20px; padding-bottom: 20px;}
+  		.dropdown-menu>.active>a{background-color:transparent;}
+  		.dropdown-menu>.active>a:hover{background-color:#d6d7d8; color:black;}
+  		.dropdown-menu>li>a:visited{color:black;}
+  		.dropdown-menu>li>a:link{color:black; padding-top: 20px; padding-bottom: 20px;}
+  		.navbar-brand>a:hover{color:black;}
+  		.navbar-brand>a:visited{color:#444547;}
+  		.navbar-brand>a:link{color:#444547; font-size:20px; font-weight: bold; padding-top: 20px; padding-bottom: 20px;}
+  		
+  		.navbar-links{padding-top: 70px;}
+  		.divHead{color:#444547; font-size: 30px; text-align: center; font-weight: bold; font-family: 'Exo', Sans-Serif;}
+  		.contentHead{color:#686b70; font-size: 25px; font-weight: bold;}
+  		.content{font-size: 20px;}
+  		.foot{background-color: #C1C2C7;}
+  		.foot-content{color: #444547; font-weight: bold; font-size: 20px; font-family: 'Pontano Sans', Sans-Serif; text-align: center;}
+  		.cont_about{background-color: #E8EBEF;}
+  		.cont_docs{background-color: skyblue;}
+  		.underlined{border-bottom: 3px solid #af2828;}
