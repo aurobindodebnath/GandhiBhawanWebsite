@@ -12,7 +12,7 @@
 
 .welcome{
 	padding-top: 200px;
-	font: bold normal 40px Montserrat;
+	font: bold normal 34px Montserrat;
 	color: white;
 	z-index: 0;
 	position: relative;
@@ -21,7 +21,7 @@
 
 #W,#E,#L,#C,#O,#M,#E2{
 	visibility: hidden;
-	margin-right: 2%;
+	margin-right: 1%;
 }
 
 
