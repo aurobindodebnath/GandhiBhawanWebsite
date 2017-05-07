@@ -10,17 +10,17 @@ body {
 
 h3{
   margin: 10px 0 30px 0;
-  letter-spacing: 10px;      
+  letter-spacing: 10px;
   font-size: 26px;
-  color: #111; 
+  color: #111;
 }
 h4 {
   margin: 10px 0 30px 0;
-  letter-spacing: 5px;      
+  letter-spacing: 5px;
   font-size: 20px;
   color: #eee;
 }
- 
+
 .container {
   padding: 120px 10% 80px 10%;
 }
@@ -41,7 +41,7 @@ h4 {
 
 .nav-tabs li a {
       color: #777;
-  }  
+  }
   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
@@ -51,7 +51,7 @@ h4 {
       letter-spacing: 4px;
       opacity: 0.9;
   }
-  .navbar li a, .navbar .navbar-brand { 
+  .navbar li a, .navbar .navbar-brand {
       color: #d5d5d5 !important;
   }
   .navbar-nav li a:hover {
@@ -83,7 +83,7 @@ h4 {
 }
 
 #sidebar{
-  padding-top: 170px;
+  padding-top: 120px;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
   background-color: black;
@@ -121,4 +121,4 @@ footer a {
 footer a:hover {
   color: #777;
   text-decoration: none;
-} 
+}
