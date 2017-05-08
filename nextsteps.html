@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Panjab University | Keeping It Modern</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Styles/design.css">
+  <link rel="stylesheet" href="Styles/anime.css">
+  <style>
+  	body{
+  		background-image: url(Images/header.jpg);
+  		background-attachment: fixed;
+  		background-size: cover;
+  		background-repeat: no-repeat;
+  	}
+  	a{
+  		color: black;
+  		text-decoration: none;
+  	}
+  	a:hover{
+  		color:brown;
+  		text-decoration: none;
+  	}
+  </style>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--nav bar-->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">Panjab University<br>-Keeping It Modern-</a>
+    </div>
+    <br><br><br>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="Gandhibhawan.html">GANDHI BHAWAN</a></li>
+        <li class="active"><a href="exhibitions.html">EXHIBITIONS</a></li>
+        <li><a href="workshops.html">WORKSHOPS</a></li>
+        <li><a href="nextsteps.html">NEXT STEPS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--End of nav bar-->
+
+
+<!-- Beginning of Exhibitions section-->
+<div id="exbh" class="bg-2"><br>
+  <div class="container">
+    <h3 id="exbhhead" class="text-center">NEXT STEPS</h3>
+    <hr>
+    <p class="text-justify">
+      These Conservation Management Plan for Gandhi Bhawan is an important resource for future reference as well as for future fundraising for the building and for guiding future conservation of other modern heritage buildings within the campus. The implementation of this plan can be broadly considered in the 7 main sections covered in the detailed plan. A 3 year implementation and phasing for the plan is outlined below.<br>
+  <table class="table table-responsive table-striped" style="table-layout: fixed;">
+    <thead>
+      <tr>
+        <th><center>Sr. No.</center></th>
+        <th><center>CMP Works</center></th>
+        <th><center>1 year</center></th>
+        <th><center>2 years</center></th>
+        <th><center>3 years</center></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Landscaping – reviving the Pool</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Conservation of Exterior panels</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Conservation of Interiors and Furniture</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Services including Air conditioning if required after microclimate monitoring</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Interpretation and Use proposals</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Risk Management -CCTV and Fire Fighting</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Archival drawings- conservation and storage</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+      
+      
+
+    </p>
+  </div>
+</div>
+<!--End of Exhibition section-->
+
+
+
+
+
+<!-- Footer -->
+<footer class="text-center" style="background-color: #222">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <br>
+  <div class="row text-center"><div class="col-sm-12">Gandhi Bhavan, Panjab University, Chandigarh, IN 160014.</div></div>
+</footer>
+
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip();
+
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+<script src="JS/anime.js"></script>
+</body>
+</html>
