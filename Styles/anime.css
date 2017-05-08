@@ -4,7 +4,10 @@
 }
 @keyframes sizein{
 	0%{ transform:scale(1); }
-	50%{ transform: scale(1.2); }
+	50%{ transform: scale(1.05);}
+	100%{
+		transform: scale(1);
+		}
 }
 .navbar-header{
 	animation: 2s rollin 1 ease;
@@ -23,7 +26,9 @@
 	visibility: hidden;
 	margin-right: 1%;
 }
-
+h3{
+	animation: 1s sizein infinite linear;
+}
 
 /*about*/
 
@@ -53,15 +58,6 @@
 .polaroid:hover{
   transform: scale(0.9);
   opacity: 0.8;
-}
-
-.knowmore{
-  position: relative;
-  animation: 1s sizein infinite linear;
-
-}
-.knowmore:hover{
-	background-color: #222;
 }
 
 .showing{
